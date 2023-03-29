@@ -15,6 +15,7 @@ font-family: 'Anton', sans-serif;
 
 
 
+
   h1 {
       
       border-radius: 10px;
@@ -95,6 +96,37 @@ h2 ,h3 {
 
 .a {
   text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.images-container {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.images-container img {
+  display: inline-block;
+  height: 100%;
+  animation: scroll 20s linear infinite;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 
@@ -183,5 +215,11 @@ body {
         margin: 0 auto;
         text-align: center;
     }
+    
+ 
+
+
+
+
     
  
